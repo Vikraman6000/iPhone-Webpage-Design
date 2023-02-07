@@ -1,0 +1,17 @@
+body{
+    background-image: url("bg/about.jpg");
+    background-size: cover;
+    margin-top :60px;
+    margin-bottom: 80px;
+}
+.content{
+    color:rgb(255, 255, 255);
+    font-size: large;
+    font-family: sans-serif;
+    padding:30px;
+    line-height: 1.25em;
+    /* padding-right: 45px;; */
+}
+.content h2{
+    color:orange
+}
