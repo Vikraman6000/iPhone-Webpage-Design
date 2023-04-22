@@ -6,7 +6,6 @@ The Webpage is live at The Site is live at https://vikraman6000.github.io/iPhone
 
 Contains collection of Html files with CSS styling linked displays basic information about iPhones. 
 The design feels quite attractive and does not support smaller devices, no backend development included.
-
 If you want to add new features or implement backend for the design, 
 Feel free to fork and it is much appreciated.
 
