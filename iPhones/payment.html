@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/payment.css">
+</head>
+
+<body>
+    <header>
+        <h1> iPhone Billing</h1>
+        <nav>
+            <ul type="none">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="product.html">Store</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h2>Billing Information</h2>
+    <div id="alert" role="alert">
+        <p id="alert-text"></p><button type="button" class="close" data-dismiss="alert" aria-label="Close" id="alert-close"
+            onclick="disapper()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <section class="content">
+        <form>
+            <div class="card">
+                <p>Enter Card Details</p>
+                <label for="card">Select Card Type</label>
+                <select name="card" id="card" value="Select card type" required>
+                    <option value=""></option>
+                    <option value="">Discover</option>
+                    <option value="">Rupay card</option>
+                    <option value="">Dinners</option>
+                    <option value="">Master card</option>
+                    <option value="">Visa</option>
+                </select>
+                <label for="cno">Enter Card number</label>
+                <input type="text" id="cno" required>
+                <label for="Cvv">Cvv number</label>
+                <input type="text" id="Cvv" required>
+                <span>We Accept the follwing cards</span>
+                <img src="imgs/pay.png" alt="Accepted Payments" height="216px" width="216px">
+            </div>
+            <div class="detail">
+                <p>Enter Account Holder Details</p>
+                <label for="fname"> First Name</label>
+                <input type="text" id="fname" required>
+                <label for="lname"> Last Name</label>
+                <input type="text" id="lname" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <label for=""></label>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" required>
+                <label for="addr">Address line</label>
+                <input type="text" id="addr" required>
+                <label for="city">City</label>
+                <input type="text" id="city" required>
+                <label for="pin">Pincode</label>
+                <input type="text" id="pin" required>
+
+            </div>
+            <div class="confirm">
+                <p>Confirm Your Order</p>
+                <label for="disc">Coupon code(optional)</label>
+                <input type="text" id="disc">
+                <label for="">By placing order you agree to </label>
+                <label for="">The terms and conditions</label>
+
+                <input type="submit" value="Place Order" onclick="validate()">
+                <img src="imgs/accept.png" alt="Think Different" height="216px" width="216px" >
+            </div>
+        </form>
+        <div class="hide">
+            <h4>
+                Your Order was Placed Successfully!
+            </h4>
+            See you mail for more details!
+            <form action="home.html">
+                <input type="submit" value="Go Home">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Copyright © 2023 iPhone Inc. All rights reserved by Vikraman6000.
+        </p>
+    </footer>
+
+    <script src="js/pay.js"></script>
+</body>
+
+</html>
