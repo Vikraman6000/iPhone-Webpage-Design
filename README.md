@@ -4,10 +4,8 @@ Comprehensive Webpage Design that provides information on iPhone models, News, a
 
 The Webpage is live at The Site is live at https://vikraman6000.github.io/iPhones/home.html
 
-Contains collection of Html files with CSS styling linked,
-contains five pages that displays basic information about iPhones. 
-The design feels quite attractive and does not support smaller devices, 
-no backend development included.
+Contains collection of Html files with CSS styling linked displays basic information about iPhones. 
+The design feels quite attractive and does not support smaller devices, no backend development included.
 
 If you want to add new features or implement backend for the design, 
 Feel free to fork and it is much appreciated.
